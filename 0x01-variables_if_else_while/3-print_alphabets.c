@@ -20,4 +20,5 @@ int main(void)
         putchar(start1);
         start1++;
     }
+    return (0);
 }
