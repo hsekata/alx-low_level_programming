@@ -1,5 +1,11 @@
 #include <stdio.h>
 int main(void)
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 {
     char start = 'a';
     char end = 'f';
