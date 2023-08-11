@@ -6,13 +6,13 @@ int main(void)
  * Return: Always 0 (Success)
  */
 {
-    char start = 'a';
-    char end = 'z';
-    while (start <= end)
+	char start = 'a';
+	char end = 'z';
+	while (start <= end)
     {
     
 	putchar(start);
 	start++;
     }
-
+	return (0);	
 }
