@@ -1,18 +1,18 @@
 #include <stdio.h>
-int main(void)
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+int main(void)
 {
 	char start = 'a';
 	char end = 'z';
 	while (start <= end)
     {
-    
-	putchar(start);
+    	putchar(start);
 	start++;
     }
+	putchar('\n');
 	return (0);	
 }
