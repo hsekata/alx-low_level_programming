@@ -10,16 +10,18 @@
 
 int main(void)
 { 
-    int i;
-    for (i = 0; i < 10; i++)
-    {
-        putchar(48 + i);
-        if (i == 9)
-            break;
-        putchar(',');
-	putchar(' ');
+	int i;
+	
+	for (i = 0; i < 10; i++)
+	{
+		putchar(48 + i);
+		if (i == 9)
+			break;
+		putchar(',');
+		putchar(' ');
 
-    }
-    putchar('\n');
+	}
+	putchar('\n');
+	
 	return (0);
 }
