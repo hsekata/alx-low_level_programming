@@ -58,7 +58,7 @@ void print_to_98(int n)
             else 
             {   
                 n = n * -1;
-                if (n >= 10)
+                if ((n >= 10) && (n < 100))
                 {
                     int remainder = n % 10;
                     int  first = n / 10;
@@ -69,6 +69,21 @@ void print_to_98(int n)
                     _putchar(' ');
                     n = n * -1;
                     n += 1;
+                }
+                else if (n >= 100)
+                {
+                    int last = n % 10;
+                    int second = n / 10;
+                    int second1 = second % 10;
+                    int first = n /100 ; 
+                    _putchar('-');
+                    _putchar(48 + first);
+                    _putchar(48 + second1);
+                    _putchar(48 + last);
+                    _putchar(',');
+                    _putchar(' ');
+                    n = n * -1;
+                    n += 1; 
                 }
                 else
                 {   
@@ -86,3 +101,4 @@ void print_to_98(int n)
     _putchar('0' + 8);
     _putchar('\n');
 }
+
