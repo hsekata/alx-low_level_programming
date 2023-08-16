@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * print_last_digit(int n) - writes the character c to stdout
  * @n: The number to print
  *
  * Return: On success 1.
@@ -12,7 +12,17 @@ int print_last_digit(int n)
 {
        int remainder;
 
+       if (n > 0)
+       {
        remainder = n % 10;
        _putchar(48 + remainder);
        return (remainder);
+       }
+       else 
+       {
+              n *= -1;
+              remainder = n % 10;
+              _putchar(48 + remainder);
+              return (remainder);
+      }
 }
