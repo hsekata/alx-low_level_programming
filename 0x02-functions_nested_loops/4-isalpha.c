@@ -18,4 +18,5 @@ int _isalpha(int c)
     {
         _putchar('0');
     }
+    return (0);
 }
