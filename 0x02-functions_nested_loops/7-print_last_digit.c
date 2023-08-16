@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_last_digit(int n) - writes the character c to stdout
+ * print_last_digit - writes the character c to stdout
  * @n: The number to print
  *
  * Return: On success 1.
