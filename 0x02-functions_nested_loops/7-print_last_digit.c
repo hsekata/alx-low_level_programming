@@ -9,9 +9,9 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int print_last_digit(int n)
- {
+{
        int remainder;
        remainder = n % 10;
        _putchar(48 + remainder);
-
- }
+       return (0);
+}
