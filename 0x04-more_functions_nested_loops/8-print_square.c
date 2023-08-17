@@ -5,13 +5,6 @@
  *
  * @size: Number  function
  */
-
-
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
 void print_square(int size)
 {   
     	int i, j;
