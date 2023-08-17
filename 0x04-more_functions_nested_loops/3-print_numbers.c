@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - writes the int x and y to stdout
+ * print_numbers - writes the int x and y to stdout
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  *
