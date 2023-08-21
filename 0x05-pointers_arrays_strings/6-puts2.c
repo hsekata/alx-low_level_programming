@@ -15,13 +15,13 @@ void puts2(char *str)
 		i++;
 	}
 	for (j = 0; j < count; j++)
-	{ 
+	{
 		char val;
 
 		if ((j % 2) != 0)
 			continue;
 		else
-		{    
+		{
 			val = str[j];
 			_putchar(val);
 		}
