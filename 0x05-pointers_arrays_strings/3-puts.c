@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts - prints string followed by a new line
  * @str: pointer to character type
