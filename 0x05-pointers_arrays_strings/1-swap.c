@@ -8,7 +8,7 @@
  */
 void swap_int(int *a, int *b)
 {
-	int hold ;
+	int hold;
 
 	int *address_hold = &hold;
 
