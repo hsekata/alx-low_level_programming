@@ -14,7 +14,7 @@ int _strlen(char *s)
         	count += 1;
         	i++;
     	}
-    	_putchar('\n');
+    	
     	return (count);
     
 }
