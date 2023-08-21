@@ -3,7 +3,8 @@
 /**
  * _strlen - fuction that counts length of string
  * @s: pointer to character type
- *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _strlen(char *s)
 {
