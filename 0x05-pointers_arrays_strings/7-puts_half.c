@@ -19,9 +19,10 @@ void puts_half(char *str)
 	if ((count % 2) == 0)
 	{
 		length_of_the_string = count / 2;
-		for (;length_of_the_string < count; length_of_the_string++)
+		for (; length_of_the_string < count; length_of_the_string++)
 		{
 			char val;
+
 			val = str[length_of_the_string];
 			_putchar(val);
 		}
@@ -30,7 +31,7 @@ void puts_half(char *str)
 	{
 		length_of_the_string  = (count - 1) / 2;
 		length_of_the_string += 1;
-		for (;length_of_the_string < count; length_of_the_string++)
+		for (; length_of_the_string < count; length_of_the_string++)
 		{
 			char val;
 
@@ -39,5 +40,4 @@ void puts_half(char *str)
 		}
 	}
 	_putchar('\n');
-    
 }
