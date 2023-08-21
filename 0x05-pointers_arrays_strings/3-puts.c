@@ -13,7 +13,7 @@ void _puts(char *str)
         	i++;
     	}
 
-    	for (int j = 0; j < count; j++)
+    	for (j = 0; j < count; j++)
     	{  
 	    	char val;
 
