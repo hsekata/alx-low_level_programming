@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - Test the _isalpha function
+ * print_diagonal - takes argument n
  *
- * @n: Number to pass to _isalpha function
+ * @n: Number to pass to print_diagonal function
  */
 void print_diagonal(int n)
 {
