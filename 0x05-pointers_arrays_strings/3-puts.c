@@ -5,20 +5,19 @@
  */
 void _puts(char *str)
 {
- 	int count = 0, i = 0;
+	int j, count = 0, i = 0;
 
-    	while (str[i] != '\0')
-    	{
-        	count += 1;
-        	i++;
-    	}
+	while (str[i] != '\0')
+	{
+		count += 1;
+		i++;
+	}
+	for (j = 0; j < count; j++)
+	{
+		char val;
 
-    	for (int j = 0; j < count; j++)
-    	{  
-	    	char val;
-
-        	val = str[j];
-        	_putchar(val);
-        }
-    	_putchar('\n');
+		val = str[j];
+		_putchar(val);
+	}
+	_putchar('\n');
 }

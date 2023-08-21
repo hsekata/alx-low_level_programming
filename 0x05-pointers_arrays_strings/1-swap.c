@@ -10,9 +10,9 @@ void swap_int(int *a, int *b)
 {
 	int hold ;
 
-    	int *address_hold = &hold;
+	int *address_hold = &hold;
 
-    	*address_hold= *a;
-    	*a = *b;
-    	*b = *address_hold;
+	*address_hold = *a;
+	*a = *b;
+	*b = *address_hold;
 }
