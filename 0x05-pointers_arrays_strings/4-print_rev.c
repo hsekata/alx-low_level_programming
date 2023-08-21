@@ -13,11 +13,13 @@ void print_rev(char *s)
 		count += 1;
 		i++;
 	}
-	for ( j = count; j >= 0; j--)
+	for ( j = count - 1; j >= 0; j--)
 	{
 		char val;
 
 		val = s[j];
 		_putchar(val);
 	}
+	_putchar('\n');
 }
+
