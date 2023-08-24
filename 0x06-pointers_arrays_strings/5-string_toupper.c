@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * string_toupper - writes the charactes to upper case
  * @x: pointer to character
