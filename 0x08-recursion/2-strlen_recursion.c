@@ -16,8 +16,7 @@ int len(char *str, int count)
  
 	if (str[i] != '\0')
 	{	i++;
-		len(str + 1, count + 1);
+		return (len(str + 1, count + 1));
 	}
-	 else
-		return (count);
+	 return (count);
 }
