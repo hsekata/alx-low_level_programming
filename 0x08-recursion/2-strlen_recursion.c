@@ -4,7 +4,7 @@
  * @count: variable that counts length
  * @str: that points to the first character of s.
  */
-
+int len(char *, int);
 int _strlen_recursion(char *s)
 {
 	if (s[0] == '\0')
@@ -12,8 +12,10 @@ int _strlen_recursion(char *s)
 	return (0 + len(s, 0));
 }
 int len(char *str, int count)
-{
+{	int i = 0;
+ 
 	if (str[i] != '\0')
+		i++
 		len(str + 1, count + 1);
 	else
 		return (count);
