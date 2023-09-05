@@ -1,7 +1,7 @@
 #include <stdlib.h>
 /**
- *_strlen - count array
- *@s: array of elements
+ *_strdup - duplicates array and returns pointer to heap memory
+ *@str: array of characters
  *Return: 1
  */
 char *_strdup(char *str)
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 		count++;
 		i++;
 	}
-	ptr = (char *) malloc (count + 1);
+	ptr = (char *) malloc(count + 1);
 	i = 0;
 	while (str[i] != '\0')
 	{
