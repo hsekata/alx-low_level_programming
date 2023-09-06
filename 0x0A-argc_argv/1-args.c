@@ -6,7 +6,7 @@
  *Return: returns 0 on success
  */
 int main(int argc, char *argv[])
-{	
+{
 	int i, count = 0;
  
 	for (i = 0; i < argc; i++)
