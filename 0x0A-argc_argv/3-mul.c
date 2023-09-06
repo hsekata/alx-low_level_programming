@@ -5,7 +5,6 @@
  *@argc: counts number of arguments from the command line
  *@argv: string of array i.e strings from the command line
  *Return: returns 0 on success
- *Return: returns 1 on failure
  */
 int main(int argc, char *argv[])
 {
