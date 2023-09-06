@@ -4,10 +4,10 @@
  *main - prints the name of the excutable file
  *@argc: counts number of arguments from the command line
  *@argv: string of array i.e strings from the command line
- *return: returns 0 on success
- *return: returns 1 on failure
+ *Return: returns 0 on success
+ *Return: returns 1 on failure
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
