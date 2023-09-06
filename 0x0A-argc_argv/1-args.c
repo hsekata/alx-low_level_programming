@@ -6,7 +6,16 @@
  *Return: returns 0 on success
  */
 int main(int argc, char *argv[])
-{
-	printf("%d\n", argc);
+{	
+	int i, count = 0;
+ 
+	for (i = 0; i < argc; i++)
+	{
+		if (argv[i] != NULL)
+			count += 1;
+		else
+			break;
+	}
+	printf("%d\n", count - 1);
 	return (0);
 }
