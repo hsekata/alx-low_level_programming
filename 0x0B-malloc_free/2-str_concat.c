@@ -8,13 +8,13 @@
  *
  * return: returns pointer to the function
  */
-char *str_concat(char *s1, char *s2);
+char *str_concat(char *s1, char *s2)
 {
 	int i = 0, j = 0;
 
 	char *ptr;
 
-	ptr = char( *) malloc(sizeof(s1) + sizeof(s2))
+	ptr = (char *) malloc(sizeof(s1) + sizeof(s2));
 	if (ptr == NULL)
 	{
 		return (NULL);

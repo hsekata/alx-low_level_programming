@@ -3,9 +3,10 @@
  *main - prints the name of the excutable file
  *@argc: counts number of arguments from the command line
  *@argv: string of array i.e strings from the command line
- *return: returns 0 on success
+ *Return: returns 0 on success
  */
-int main(int argc, char* argv[])
+
+int main(int argc, char *argv[])
 {
 	int i;
 
